@@ -1,0 +1,1 @@
+docker run -d --name nagachakradharg_container -v ./images:/images nagachakradharg_pytorch_model sleep infinity
