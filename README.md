@@ -1,7 +1,7 @@
-Introduction:
+# Introduction
     This is to train and deploy a Machine learning model for MNIST dataset using pytorch.
 
-Steps:
+# Steps
     
     A Bash script called build.sh is used to build the Docker image and trin the model while building with the
     images provided. 
@@ -11,7 +11,7 @@ Steps:
     A third Bash script called infer.sh randomly chooses a test image from the images directory and makes the 
     Model(Docker container) classify it and the predicted classification is printed as output.
 
-The following commands are used to execute the model:
+# The following commands are used to execute the model:
 
 builds the docker image and trains the model while building.
     
